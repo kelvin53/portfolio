@@ -1,0 +1,40 @@
+.container{
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+}
+body{
+font-family: sans-serif;
+}
+h1,h2,h3{
+  text-align: center;
+
+}
+.p {
+text-decoration-color: blueviolet;
+text-decoration-style:wavy;
+
+
+}
+.pic{
+position: top-right;
+height: 70px;
+width: 60px;
+
+}
+nav>ul{
+text-align: center;
+padding-bottom: 20px;
+}
+ul>li{
+display: inline-block;
+}
+ul>li>a{
+text-transformation: uppercase;
+padding: 10px;
+text-decoration: none;
+}
+ul>li>a:hover{
+background-color: red;
+color: black;
+}
