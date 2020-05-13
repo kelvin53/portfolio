@@ -1,42 +1,65 @@
-.container{
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-    
-    body{
-    font-family: sans-serif;
-    }
-    h1,h2,h3{
-      text-align: center;
-    
-    }
-    p {
-    text-decoration-color: blueviolet;
-    text-decoration-style: wavy;
-    
-    
-    }
-    .pic{
-    position: relative;
-    height: 70px;
-    width: 60px;
-    float: left;
-    }
-    nav>ul{
+body {
+    background-color: transparent;
+  }
+  
+  .container {
+    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
     text-align: center;
-    padding-bottom: 20px;
-    }
-    ul>li{
+    padding: 50px 200px 50px 200px;
     display: inline-block;
-    }
-    ul>li>a{
-    text-transform: uppercase;
+    justify-content: center;
+  }
+  
+  .navbar {
+    display: block;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: -webkit-flex;
+    justify-content: center;
+  }
+  
+  
+  .jumbotron {
+    background-color: rgb(232, 252, 228);
+    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+    display: -webkit-flex;
+    justify-content: center;
+    background-image: url(../images/kelvin.png);
+    background-repeat: no-repeat;
+  }
+  
+  h3 {
+    font-size: 40px;
+    margin-left: 100px;
+  }
+  
+  p {
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 100px;
+    padding: 15px;
+  }
+   img {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  li {
+    font-size: 25px;
+    list-style-position: inside;
+    text-align: justify;
+  }
+  
+  ol li {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 60px;
     padding: 10px;
-    text-decoration: none;
-    }
-    ul>li>a:hover{
-    background-color: red;
-    color: black;
-    }
-    
+  }
+  
