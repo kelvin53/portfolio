@@ -10,9 +10,9 @@ h1,h2,h3{
   text-align: center;
 
 }
-.p {
+p {
 text-decoration-color: blueviolet;
-text-decoration-style:wavy;
+text-decoration-style: wavy;
 
 
 }
@@ -20,7 +20,7 @@ text-decoration-style:wavy;
 position: top-right;
 height: 70px;
 width: 60px;
-
+float: left;
 }
 nav>ul{
 text-align: center;
